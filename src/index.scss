@@ -1,0 +1,9 @@
+@use "@pyxis/scss/src/scss/base";
+@use "@pyxis/scss/src/scss/foundations";
+@use "@pyxis/scss/src/scss/foundations/colors";
+@use "@pyxis/scss/src/scss/foundations/layout";
+@use "@pyxis/scss/src/scss/foundations/typography";
+@use "@pyxis/scss/src/scss/foundations/spacings";
+
+// Let's include only the styles for the components we're actually using
+@use "@pyxis/scss/src/scss/components/badge";
